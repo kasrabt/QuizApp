@@ -20,7 +20,7 @@ const MainQuiz = () => {
         <h3 className="  text-5xl font-extralight text-white">Quiz App</h3>
       </div>
       <div className="flex justify-center ">
-        <div className="items-center mt-24 bg-white/30  h-auto w-[500px] p-10 text-white rounded-2xl">
+        <div className="items-center max-w-[90%] mr-auto ml-auto mt-24 bg-white/30  h-auto w-[500px] p-10 text-white rounded-2xl">
           {totalValue === 0 && <EntereName />}
           {totalValue === 1 && <FirstQ />}
           {totalValue === 2 && <SecondQ />}
