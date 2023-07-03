@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 const Input = (props) => {
   const styles =
-    "p-4  border-2 border-solid border-white rounded-3xl mt-5 focus:border-green-700" +
+    "p-4  border-2 border-solid hover:text-green-700 border-white rounded-3xl mt-5 focus:border-green-700" +
     " cursor-pointer active:border-green-700  active:text-green-700 font-semibold focus:text-green-700 ";
   const { myValue } = props;
   return (
